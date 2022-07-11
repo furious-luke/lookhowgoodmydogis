@@ -106,7 +106,9 @@ const IndexPage = () => {
           </div>
           <div style={{position: 'relative'}}>
             <Wave />
-            <StaticImage src="../images/side-eyes.jpg" alt="Side eyes" layout="constrained" />
+            <div style={{display: 'flex', justifyContent: 'center', backgroundColor: '#eee'}}>
+              <StaticImage src="../images/side-eyes.jpg" alt="Side eyes" layout="constrained" width={1200} />
+            </div>
             <Wave position="bottom" />
           </div>
         </article>
